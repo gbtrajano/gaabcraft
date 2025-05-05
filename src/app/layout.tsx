@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/Components/Header/Index";
-import { Copyright } from "@/Components/Copyright/Index";
 
 export const metadata: Metadata = {
   title: "Link gaabcraft",
@@ -18,7 +17,6 @@ export default function RootLayout({
       <body className={`antialiased`}>
         <Header />
         {children}
-        <Copyright />
       </body>
     </html>
   );
