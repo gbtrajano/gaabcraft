@@ -2,13 +2,15 @@ export function Header() {
   return (
     <header className="flex items-center flex-col pt-12">
       <img
-        src="/images/photo.png"
+        src="/images/logoDaMultiverso.png"
         alt=""
         className="h-32 rounded-full border-2 border-gray-200 my-3"
       />
-      <h1 className="text-3xl font-bold text-white my-2">gaabcraft</h1>
+      <h1 className="text-3xl font-bold text-white my-2">
+        Multiverso Aprender
+      </h1>
       <span className="text-xl font-semibold text-gray-500 flex items-center gap-1">
-        Minecraft
+        Educação
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
