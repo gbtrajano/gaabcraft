@@ -328,11 +328,23 @@
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
+  .w-2\/3 {
+    width: calc(2/3 * 100%);
+  }
   .w-80 {
     width: calc(var(--spacing) * 80);
   }
+  .w-\[9-\%\] {
+    width: 9-%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-screen {
     width: 100vw;
+  }
+  .min-w-80 {
+    min-width: calc(var(--spacing) * 80);
   }
   .flex-shrink {
     flex-shrink: 1;
@@ -360,6 +372,9 @@
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
+  }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
