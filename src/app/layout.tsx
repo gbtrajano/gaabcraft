@@ -3,8 +3,8 @@ import "./globals.css";
 import { Header } from "@/Components/Header/Index";
 
 export const metadata: Metadata = {
-  title: "Link gaabcraft",
-  description: "Site criado por gaabcraft",
+  title: "Multiverso Aprender",
+  description: "Site feito pela Multiverso Aprender",
 };
 
 export default function RootLayout({
